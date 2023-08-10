@@ -18,7 +18,7 @@ internal class Program
 
         salario = valorHora * horaTrabalhada;
 
-        Console.WriteLine("\nNumber:  " + numero, CultureInfo.InvariantCulture);
-        Console.WriteLine("Salary U$:  " + salario.ToString("F2", CultureInfo.InvariantCulture));
+        Console.WriteLine("\nNúmero do Funcionário:  " + numero, CultureInfo.InvariantCulture);
+        Console.WriteLine("Salário U$:  " + salario.ToString("F2", CultureInfo.InvariantCulture));
     }
 }
